@@ -1,6 +1,7 @@
 .projects-container {
   display:flex;
   min-height: 70vh;
-  min-width: 100vw;
+  min-width: 100%;
+  max-width: 100%;
   background-color: white;
 }

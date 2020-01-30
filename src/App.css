@@ -6,3 +6,9 @@
 * {
   font-family: 'Proxima Nova', sans-serif;
 }
+
+body {
+  /* overflow-x: hidden; */
+  margin: 0;
+  padding: 0;
+}

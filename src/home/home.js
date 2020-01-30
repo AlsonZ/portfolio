@@ -13,7 +13,7 @@ function Home() {
             <div className="description">Web Developer</div>
             <div className="home-arrow-container">
               <ScrollTo selector='#projects'>
-                <svg class="expand-more-icon">
+                <svg className="expand-more-icon">
                   <use xlinkHref={`${icons}#icon-expand-more`} />
                 </svg>
               </ScrollTo>
