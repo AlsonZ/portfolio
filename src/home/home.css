@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+
+.home-container {
+  display:flex;
+  min-height: 85vh;
+  min-width: 100vw;
+}
+.hero-image {
+  background: url('./mountain-top-1080.jpg');
+  background-size: cover;
+  background-position: center;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 85vh;
+  min-width: inherit;
+}
+.hero-overlay {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+  background-attachment: fixed;
+  min-height: 85vh;
+  min-width: 100vw;
+}
+.home-text {
+  min-height: inherit;
+}
+.title {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 3px;
+  font-weight: 300;
+  text-align: center;
+  font-size: 3.8rem;
+  margin-top: 0;
+  margin-bottom: 1.8rem;
+  padding-top: 29vh;
+}
+.description {
+  color: white;
+  text-align: center;
+}
+
+.home-arrow-container {
+  align-items: center;
+  margin: auto;
+  height: 4rem;
+  width: 4rem;
+  /* margin-top: 18vh; */
+  margin-top: 17rem;
+}
+.home-arrow-container:hover {
+  margin-top:16rem;
+}
+/*portrait screens*/
+@media only screen and (max-height: 850px) {
+  .home-arrow-container {
+    margin-top: 9rem;
+  }
+}
+/*landscape screens*/
+@media only screen and (max-height: 420px) {
+  .home-arrow-container {
+    margin-top: 2rem;
+  }
+}
+
+.expand-more-icon {
+  height: 4rem;
+  width: 4rem;
+  fill: #ccc;
+}

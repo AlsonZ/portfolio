@@ -1,0 +1,24 @@
+.nav-container {
+  display: flex;
+  padding: 2rem 0;
+  position: fixed;
+  min-width: 100vw;
+  justify-content: space-evenly;
+  background: transparent;
+  transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+.nav-items {
+  padding: 0.1rem;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+  -webkit-user-select: none;
+}
+.nav-items:hover {
+  color: #ccc;
+}
+
+.nav-collapse {
+  background: black;
+  padding: 1rem 0;
+}
