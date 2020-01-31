@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from './nav/nav.js'
 import Home from './home/home.js'
 import Projects from './projects/projects.js'
+import Skills from './skills/skills.js'
 import './App.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Nav/>
       <Home/>
       <Projects/>
+      <Skills/>
     </div>
   );
 }

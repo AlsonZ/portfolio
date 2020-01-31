@@ -38,7 +38,7 @@ function Nav() {
         <div onClick={onMenuClick} className="nav-links">
           <ScrollTo selector='#projects' className="nav-items">Projects</ScrollTo>
           <ScrollTo selector='#skills' className="nav-items">Skills</ScrollTo>
-          <ScrollTo selector='#contact' className="nav-items">About</ScrollTo>
+          <ScrollTo selector='#about' className="nav-items">About</ScrollTo>
           <ScrollTo selector='#contact' className="nav-items">Contact</ScrollTo>
         </div>
         {/* <ScrollTo selector='#home' className="nav-items">Home</ScrollTo> */}
