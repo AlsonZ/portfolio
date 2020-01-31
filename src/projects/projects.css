@@ -48,6 +48,7 @@
   float: left;
   visibility: hidden;
   transform: translateY(-6vw);
+  -webkit-user-select: none;
   z-index: 10;
 }
 .projects-title-visible {
