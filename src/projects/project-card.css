@@ -4,14 +4,28 @@
   box-sizing: border-box;
   background: lightgrey;
   overflow: hidden;
-  width: 20rem;
-  /* height: 23rem; */
-  height: 15rem;
+  width: 100%;
+  max-width: 20rem;
+  height: 13.5rem;
   position: relative;
+  margin: 1rem;
 }
+@media only screen and (min-width: 1200px) {
+  .project-card-container {
+    max-width: 25rem;
+    height: 16.825rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .project-card-container {
+    margin: 0.4rem;
+    margin-bottom: 1rem;
+  }
+}
+
 .project-card-image {
-  width: 20rem;
-  height: 15rem;
+  width: inherit;
+  height: inherit;
   z-index: -10;
   position: absolute;
 }
@@ -48,7 +62,7 @@
 }
 .project-card-actions {
   display: grid;
-  grid-template-columns: 10rem 10rem;
+  grid-template-columns: 50% 50%;
   height: 2.5rem;
   width: inherit;
   position: absolute;
@@ -66,7 +80,7 @@
 }
 .project-card-button {
   color: transparent;
-  width: 6rem;
+  width: 50%;
   background: transparent;
   color: white;
   font-size: 1.2rem;
@@ -82,6 +96,7 @@
   transition: 0.3s ease-in-out;
 }
 .project-card-button:hover {
-  width: 7rem;
+  width: 60%;
   background: rgba(255,255,255,0.1);
 }
+

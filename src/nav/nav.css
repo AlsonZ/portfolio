@@ -1,18 +1,18 @@
 .nav-container {
   display: flex;
-  padding: 1rem 0;
   position: fixed;
   min-width: 100%;
   max-width: 100%;
   background: transparent;
-  transition: background .5s ease-in-out, padding .5s ease-in-out;
-  height: 3.35rem;
+  transition: background .5s ease-in-out;
   z-index: 999;
 }
 .nav-inner-container {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  padding: 1rem 0;
+  transition: padding .5s ease-in-out;
 }
 
 .nav-logo {
@@ -31,13 +31,19 @@
   -webkit-user-select: none;
 }
 
+.highlight {
+  background: rgba(255,255,255,0.3);
+}
+
 .nav-items:hover {
   color: #ccc;
 }
 
 .nav-collapse {
   background: black;
-  padding: 0.2rem 0;
+}
+.nav-collapse .nav-inner-container {
+  padding: 0;
 }
 
 .hamburger-box {
@@ -48,10 +54,10 @@
 @media only screen and (max-width: 700px) {
   .nav-container {
     background: black;
-    padding: 0.2rem 0;
   }
   .nav-inner-container {
     width: 100%;
+    padding: 0.2rem 0;
   }
   .nav-links {
     float: none;

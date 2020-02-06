@@ -1,0 +1,30 @@
+.contact-container {
+  display:flex;
+  flex-direction: column;
+  min-width: 100%;
+  max-width: 100%;
+  padding: 3rem 0;
+  background: #F0F0F0;
+}
+.contact-title {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  -webkit-user-select: none;
+}
+.contact-description {
+  text-align: center;
+  -webkit-user-select: none;
+}
+.contact-svg-container {
+  display: flex;
+  justify-content: center;
+}
+.contact-svg {
+  height: 4rem;
+  width: 4rem;
+  padding: 1rem;
+}
+.contact-svg:hover {
+  transform: translateY(-0.3rem);
+}

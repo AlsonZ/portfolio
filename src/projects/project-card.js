@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import image from './mountain-top-1080.jpg';
 import './project-card.css';
 
@@ -6,7 +6,7 @@ function ProjectCard(props) {
 
   return (
     <div className="project-card-container">
-      <img src={image} alt="image" className="project-card-image"></img>
+      <img src={image} alt="" className="project-card-image"></img>
       <div className="project-card-overlay">
         <h2 className="project-card-title">{props.title}</h2>
         <div className="project-card-actions">
