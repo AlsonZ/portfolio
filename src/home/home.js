@@ -11,13 +11,14 @@ function Home() {
   let [indexToType, setIndexToType] = useState(null);
   const textToType = ["Web Developer", "Student"]
 
-  const typeText = () => {
-    setText(text+=textToType[indexToType].charAt(text.length));
-  }
-  const deleteText = () => {
-    setText(text.slice(0,-1));
-  }
+  
   useEffect(() => {
+    const typeText = () => {
+      setText(text+=textToType[indexToType].charAt(text.length));
+    }
+    const deleteText = () => {
+      setText(text.slice(0,-1));
+    }
     if(startType && text.length < textToType[indexToType].length ) {
       // console.log('start typing');
       setTimeout(()=>{setTimeout(typeText(),500)},100);

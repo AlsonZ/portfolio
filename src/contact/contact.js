@@ -9,15 +9,21 @@ function Contact() {
       <h1 className="contact-title">Get In Touch</h1>
       <p className="contact-description">Feel free to contact me with any inquiries you may have!</p>
       <div className="contact-svg-container">
-        <svg className="contact-svg">
-          <use href={`${icons}#icon-github`}/>
-        </svg>
-        <svg className="contact-svg">
-          <use href={`${icons}#icon-linkedin`}/>
-        </svg>
-        <svg className="contact-svg">
-          <use href={`${icons}#icon-envelop`}/>
-        </svg>
+        <a href="https://github.com/AlsonZ">
+          <svg className="contact-svg">
+            <use href={`${icons}#icon-github`}/>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/alson-zhang/">
+          <svg className="contact-svg">
+            <use href={`${icons}#icon-linkedin`}/>
+          </svg>
+        </a>
+        <a href="mailto:ayzcode@gmail.com">
+          <svg className="contact-svg">
+            <use href={`${icons}#icon-envelop`}/>
+          </svg>
+        </a>
       </div>
     </div>
   );
