@@ -1,13 +1,14 @@
 import React from 'react';
 import ProjectCard from './project-card';
 import './projects.css';
+import todolistImage from '../imgs/project-images/TodoList-project.PNG';
 
 function Projects() {
 
   const projects = [
     {
       title: "Todo List",
-      image: "/images/project-images/TodoList-project.PNG",
+      image: todolistImage,
       demoLink: "https://quiet-fjord-80903.herokuapp.com/",
       githubLink: "https://github.com/AlsonZ/fullstack-todolist/"
     },

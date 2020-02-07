@@ -29,7 +29,7 @@ function Skills(props) {
             {array.map((svg, i) => 
               <div key={i} className="skills-card">
                 <svg className="skills-svg">
-                  <use href={`${icons}${svg.svgName}`}/>
+                  <use xlinkHref={`${icons}${svg.svgName}`}/>
                 </svg>
                 <h1 className="skills-svg-name">{svg.name}</h1>
               </div>
