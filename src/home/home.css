@@ -7,11 +7,11 @@
 }
 .home-lazyload-low-res {
   z-index: -3;
-  background: url('../imgs/mountain-top-1080.jpg');
+  background: url('../imgs/mountain-top-720.jpg');
 }
 .home-lazyload-mid-res {
   z-index: -2;
-  background: url('../imgs/mountain-top-1920.jpg');
+  background: url('../imgs/mountain-top-1080.jpg');
 }
 .home-lazyload-high-res {
   z-index: -1;
