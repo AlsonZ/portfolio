@@ -28,6 +28,11 @@
     width: 70%;
   }
 }
+@media only screen and (max-width: 390px) {
+  .skills-column {
+    width: 90%;
+  }
+}
 
 .skills-title {
   text-align: center;

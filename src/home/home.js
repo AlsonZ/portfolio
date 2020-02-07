@@ -4,13 +4,12 @@ import './home.css';
 import icons from "../imgs/icons.svg";
 
 function Home() {
-
+ 
   let [text, setText] = useState("");
   let [startType, setStartType] = useState(false);
   let [startDelete, setStartDelete] = useState(false);
   let [indexToType, setIndexToType] = useState(null);
   const textToType = ["Web Developer", "Student"]
-
   
   useEffect(() => {
     const typeText = () => {
@@ -54,28 +53,27 @@ function Home() {
 
   return (
   <div id="home" className="home-container">
-      <div className="hero-image">
-        <div className="hero-overlay">
-          <div className="home-text">
-            <h1 className="home-title">HI, I'M ALSON</h1>
-            <div className="home-description-container">
-              <span className="home-normal-text">22 year old&nbsp;</span>
-              <span className="home-typing-text">{text}</span>
-              <span className="home-blinking-cursor">|</span>
-            </div>
-
-            {/* <div className="home-description">Web Developer</div> */}
-            <div className="home-arrow-container">
-              <ScrollTo selector='#projects'>
-                <svg className="expand-more-icon">
-                  <use xlinkHref={`${icons}#icon-expand-more`} />
-                </svg>
-              </ScrollTo>
-            </div>
-          </div>
+    <div className="home-lazyload-low-res"/>
+    <div className="home-lazyload-mid-res"/>
+    <div className="home-lazyload-high-res"/>
+    <div className="hero-overlay">
+      <div className="home-text">
+        <h1 className="home-title">HI, I'M ALSON</h1>
+        <div className="home-description-container">
+          <span className="home-normal-text">22 year old&nbsp;</span>
+          <span className="home-typing-text">{text}</span>
+          <span className="home-blinking-cursor">|</span>
+        </div>
+        <div className="home-arrow-container">
+          <ScrollTo selector='#projects'>
+            <svg className="expand-more-icon">
+              <use xlinkHref={`${icons}#icon-expand-more`} />
+            </svg>
+          </ScrollTo>
         </div>
       </div>
     </div>
+  </div>
   );
 }
 

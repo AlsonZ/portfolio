@@ -4,17 +4,22 @@ import './projects.css';
 
 function Projects() {
 
+  const projects = [
+    {
+      title: "Todo List",
+      image: "/images/project-images/TodoList-project.PNG",
+      demoLink: "https://quiet-fjord-80903.herokuapp.com/",
+      githubLink: "https://github.com/AlsonZ/fullstack-todolist/"
+    },
+  ]
+
   return (
     <div id="projects"className="projects-container">
       <h1 className="projects-title">My Work</h1>
       <div className="projects-row-container">
-        <ProjectCard title="Todo List"/>
-        <ProjectCard title="Todo List"/>
-        <ProjectCard title="Todo List"/>
-        <ProjectCard title="Todo List"/>
-        <ProjectCard title="Todo List"/>
-        <ProjectCard title="Todo List"/>
-        <ProjectCard title="Todo List"/>
+        {projects.map((project) => 
+          <ProjectCard title={project.title} image={project.image} demoLink={project.demoLink} githubLink={project.githubLink}/>
+        )}
       </div>
     </div>
   );
