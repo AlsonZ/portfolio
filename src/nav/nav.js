@@ -25,11 +25,12 @@ function Nav() {
     const checkCurrentView = () => {
       let projectsComponent = document.getElementById('projects').getBoundingClientRect();
       let skillsComponent = document.getElementById('skills').getBoundingClientRect();
+      let aboutComponent = document.getElementById('about').getBoundingClientRect();
       let footerComponent = document.getElementById('footer').getBoundingClientRect();
       if(window.innerHeight - footerComponent.bottom > -100) {
         setHighlight(defaultHighlight);
         setHighlight({...highlight, contact: "highlight"});
-      } else if(window.innerHeight - footerComponent.bottom > -300) {
+      } else if(aboutComponent.top < 100 || window.innerHeight - footerComponent.bottom > -300) {
         setHighlight(defaultHighlight);
         setHighlight({...highlight, about: "highlight"});
       } else if(skillsComponent.top < 100) {

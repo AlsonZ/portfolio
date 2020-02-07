@@ -32,3 +32,13 @@
 .about-link:visited {
   color: #005481;
 }
+.about-image {
+  height: 18rem;
+  width: 30rem;
+}
+@media only screen and (max-width:600px) {
+  .about-image {
+    height: 10rem;
+    width: 20rem;
+  }
+}

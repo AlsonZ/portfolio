@@ -18,8 +18,8 @@ function Projects() {
     <div id="projects"className="projects-container">
       <h1 className="projects-title">My Work</h1>
       <div className="projects-row-container">
-        {projects.map((project) => 
-          <ProjectCard title={project.title} image={project.image} demoLink={project.demoLink} githubLink={project.githubLink}/>
+        {projects.map((project,index) => 
+          <ProjectCard key={index} title={project.title} image={project.image} demoLink={project.demoLink} githubLink={project.githubLink}/>
         )}
       </div>
     </div>

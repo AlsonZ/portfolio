@@ -1,4 +1,5 @@
 import React from 'react';
+import Programming from '../imgs/programming-graphic.svg';
 import './about.css';
 
 function About() {
@@ -6,6 +7,7 @@ function About() {
     <div id="about" className="about-container">
       <div className="about-inner-container">
         <h1 className="about-title">A Little Bit About Me</h1>
+        <img src={Programming} alt="Programming" className="about-image"/>
         <p className="about-description">
           Hello! My name is Alson, a web developer 
           who is currently pursuing a bachelor of Business 
