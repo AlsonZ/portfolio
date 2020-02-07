@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "84e9b3ebed972c2579446f66e32dee97",
+    "revision": "a033da86be8ba4080f340c0315c83ccd",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "3f6c6fdd6173b63aaa95",
-    "url": "/portfolio/static/css/main.70dd27ee.chunk.css"
+    "revision": "69916430ab3114fb27b6",
+    "url": "/portfolio/static/css/main.c6143f19.chunk.css"
   },
   {
     "revision": "06ea60f6281c34a388b8",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.bdfdfa03.chunk.js.LICENSE"
   },
   {
-    "revision": "3f6c6fdd6173b63aaa95",
+    "revision": "69916430ab3114fb27b6",
     "url": "/portfolio/static/js/main.cdba483b.chunk.js"
   },
   {
@@ -36,12 +36,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/mountain-top-1080.df3723e6.jpg"
   },
   {
-    "revision": "297ab920fbb029e082745f22385e418f",
-    "url": "/portfolio/static/media/mountain-top-1920.297ab920.jpg"
-  },
-  {
     "revision": "257c8a8626bea4e8e19519b717427189",
     "url": "/portfolio/static/media/mountain-top-4k.257c8a86.jpg"
+  },
+  {
+    "revision": "b0acd5bf3f71e541f0ebdbaef44998d3",
+    "url": "/portfolio/static/media/mountain-top-720.b0acd5bf.jpg"
   },
   {
     "revision": "952da5c6786d48ccccff34727f1d2833",
