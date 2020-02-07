@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f68b3d62fd9156f4284c3ae4642690fd",
+    "revision": "acb5d5bc1452926cb11825185172247a",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "b576ea6fc688cc4355b4",
+    "revision": "7b976fc8f95453e7b47d",
     "url": "/portfolio/static/css/main.08f08550.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.04d63497.chunk.js.LICENSE"
   },
   {
-    "revision": "b576ea6fc688cc4355b4",
-    "url": "/portfolio/static/js/main.4dc06c51.chunk.js"
+    "revision": "7b976fc8f95453e7b47d",
+    "url": "/portfolio/static/js/main.8c7cd81f.chunk.js"
   },
   {
     "revision": "0d98471f6c3b69ca4251",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/TodoList-project.5365370f.PNG"
   },
   {
-    "revision": "653e40e28a3355303c1f477a2bef6175",
-    "url": "/portfolio/static/media/icons.653e40e2.svg"
+    "revision": "dd44cb1ef3d779b6d24fa80455ffa54f",
+    "url": "/portfolio/static/media/icons.dd44cb1e.svg"
   },
   {
     "revision": "df3723e671a7ac888321d7b69e9c7193",
