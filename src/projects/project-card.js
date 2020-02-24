@@ -1,16 +1,17 @@
 import React from 'react';
 import './project-card.css';
 
-function ProjectCard(props) {
+function ProjectCard({project}) {
 
   return (
     <div className="project-card-container">
-      <img src={props.image} alt="" className="project-card-image"></img>
+      <img src={project.image} alt="" className="project-card-image"></img>
       <div className="project-card-overlay">
-        <h2 className="project-card-title">{props.title}</h2>
+        <h2 className="project-card-title">{project.title}</h2>
+        <p className="project-card-desc">{project.description}</p>
         <div className="project-card-actions">
-          <a href={props.demoLink} className="project-card-button project-demo">Demo</a>
-          <a href={props.githubLink} className="project-card-button project-github">Github</a>
+          <a href={project.webLink} className="project-card-button project-demo">Website</a>
+          <a href={project.githubLink} className="project-card-button project-github">Github</a>
         </div>
       </div>
     </div>
