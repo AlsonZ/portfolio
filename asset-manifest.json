@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.903258cf.chunk.css",
-    "main.js": "/portfolio/static/js/main.93db8169.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.93db8169.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.821f3010.chunk.css",
+    "main.js": "/portfolio/static/js/main.b6112799.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b6112799.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.44087e9b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.44087e9b.js.map",
-    "static/js/2.bdfdfa03.chunk.js": "/portfolio/static/js/2.bdfdfa03.chunk.js",
-    "static/js/2.bdfdfa03.chunk.js.map": "/portfolio/static/js/2.bdfdfa03.chunk.js.map",
+    "static/js/2.fed765d3.chunk.js": "/portfolio/static/js/2.fed765d3.chunk.js",
+    "static/js/2.fed765d3.chunk.js.map": "/portfolio/static/js/2.fed765d3.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.672cdba1cd684b3992173a8393e9e7b6.js": "/portfolio/precache-manifest.672cdba1cd684b3992173a8393e9e7b6.js",
+    "precache-manifest.6a32b9eafd65d9fac3ef07634a98cf25.js": "/portfolio/precache-manifest.6a32b9eafd65d9fac3ef07634a98cf25.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.903258cf.chunk.css.map": "/portfolio/static/css/main.903258cf.chunk.css.map",
-    "static/js/2.bdfdfa03.chunk.js.LICENSE": "/portfolio/static/js/2.bdfdfa03.chunk.js.LICENSE",
+    "static/css/main.821f3010.chunk.css.map": "/portfolio/static/css/main.821f3010.chunk.css.map",
+    "static/js/2.fed765d3.chunk.js.LICENSE": "/portfolio/static/js/2.fed765d3.chunk.js.LICENSE",
     "static/media/TodoList-project.PNG": "/portfolio/static/media/TodoList-project.5365370f.PNG",
     "static/media/icons.svg": "/portfolio/static/media/icons.dd44cb1e.svg",
     "static/media/home.css": "/portfolio/static/media/mountain-top-720.b0acd5bf.jpg",
-    "static/media/programming-graphic.svg": "/portfolio/static/media/programming-graphic.952da5c6.svg"
+    "static/media/programming-graphic.svg": "/portfolio/static/media/programming-graphic.952da5c6.svg",
+    "static/media/weather-bundle.PNG": "/portfolio/static/media/weather-bundle.df0fc30d.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.44087e9b.js",
-    "static/js/2.bdfdfa03.chunk.js",
-    "static/css/main.903258cf.chunk.css",
-    "static/js/main.93db8169.chunk.js"
+    "static/js/2.fed765d3.chunk.js",
+    "static/css/main.821f3010.chunk.css",
+    "static/js/main.b6112799.chunk.js"
   ]
 }
