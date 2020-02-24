@@ -1,12 +1,20 @@
 import React from 'react';
 import ProjectCard from './project-card';
 import './projects.css';
-import todolistImage from '../imgs/project-images/TodoList-project.PNG';
-import weatherBundleImage from '../imgs/project-images/weather-bundle.PNG';
+import todolistImage from '../imgs/project-images/todolist-image.PNG';
+import weatherBundleImage from '../imgs/project-images/weatherbundle-image.PNG';
+import portfolioImage from '../imgs/project-images/portfolio-image.PNG';
 
 function Projects() {
 
   const projects = [
+    {
+      title: "Portfolio",
+      image: portfolioImage,
+      description: "My portfolio to display what I have learnt and can accomplish",
+      webLink: "https://alsonz.github.io/portfolio/",
+      githubLink: "https://github.com/AlsonZ/portfolio"
+    },
     {
       title: "Todo List",
       image: todolistImage,
