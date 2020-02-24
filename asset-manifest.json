@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.821f3010.chunk.css",
-    "main.js": "/portfolio/static/js/main.b6112799.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b6112799.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.7c6c3b8d.chunk.css",
+    "main.js": "/portfolio/static/js/main.1acccb67.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1acccb67.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.44087e9b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.44087e9b.js.map",
-    "static/js/2.fed765d3.chunk.js": "/portfolio/static/js/2.fed765d3.chunk.js",
-    "static/js/2.fed765d3.chunk.js.map": "/portfolio/static/js/2.fed765d3.chunk.js.map",
+    "static/js/2.61f116f3.chunk.js": "/portfolio/static/js/2.61f116f3.chunk.js",
+    "static/js/2.61f116f3.chunk.js.map": "/portfolio/static/js/2.61f116f3.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.6a32b9eafd65d9fac3ef07634a98cf25.js": "/portfolio/precache-manifest.6a32b9eafd65d9fac3ef07634a98cf25.js",
+    "precache-manifest.c1f6a1b2bc83d2713b97080465d9a3f5.js": "/portfolio/precache-manifest.c1f6a1b2bc83d2713b97080465d9a3f5.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.821f3010.chunk.css.map": "/portfolio/static/css/main.821f3010.chunk.css.map",
-    "static/js/2.fed765d3.chunk.js.LICENSE": "/portfolio/static/js/2.fed765d3.chunk.js.LICENSE",
-    "static/media/TodoList-project.PNG": "/portfolio/static/media/TodoList-project.5365370f.PNG",
+    "static/css/main.7c6c3b8d.chunk.css.map": "/portfolio/static/css/main.7c6c3b8d.chunk.css.map",
+    "static/js/2.61f116f3.chunk.js.LICENSE": "/portfolio/static/js/2.61f116f3.chunk.js.LICENSE",
     "static/media/icons.svg": "/portfolio/static/media/icons.dd44cb1e.svg",
     "static/media/home.css": "/portfolio/static/media/mountain-top-720.b0acd5bf.jpg",
+    "static/media/portfolio-image.PNG": "/portfolio/static/media/portfolio-image.0a02aafc.PNG",
     "static/media/programming-graphic.svg": "/portfolio/static/media/programming-graphic.952da5c6.svg",
-    "static/media/weather-bundle.PNG": "/portfolio/static/media/weather-bundle.df0fc30d.PNG"
+    "static/media/todolist-image.PNG": "/portfolio/static/media/todolist-image.5365370f.PNG",
+    "static/media/weatherbundle-image.PNG": "/portfolio/static/media/weatherbundle-image.df0fc30d.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.44087e9b.js",
-    "static/js/2.fed765d3.chunk.js",
-    "static/css/main.821f3010.chunk.css",
-    "static/js/main.b6112799.chunk.js"
+    "static/js/2.61f116f3.chunk.js",
+    "static/css/main.7c6c3b8d.chunk.css",
+    "static/js/main.1acccb67.chunk.js"
   ]
 }
