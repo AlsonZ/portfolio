@@ -2,6 +2,7 @@ import React from 'react';
 import ProjectCard from './project-card';
 import './projects.css';
 import todolistImage from '../imgs/project-images/TodoList-project.PNG';
+import weatherBundleImage from '../imgs/project-images/weather-bundle.PNG';
 
 function Projects() {
 
@@ -15,7 +16,7 @@ function Projects() {
     },
     {
       title: "Weather Bundle",
-      image: "",
+      image: weatherBundleImage,
       description: "Showing Weather information for Sydney by web scraping 3 sites",
       webLink: "https://secure-coast-19528.herokuapp.com/",
       githubLink: "https://github.com/AlsonZ/Weather-Bundle"
