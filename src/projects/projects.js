@@ -1,9 +1,10 @@
 import React from 'react';
 import ProjectCard from './project-card';
 import './projects.css';
+import portfolioImage from '../imgs/project-images/portfolio-image.PNG';
 import todolistImage from '../imgs/project-images/todolist-image.PNG';
 import weatherBundleImage from '../imgs/project-images/weatherbundle-image.PNG';
-import portfolioImage from '../imgs/project-images/portfolio-image.PNG';
+import conwayImage from '../imgs/project-images/conway-image.PNG';
 
 function Projects() {
 
@@ -28,7 +29,14 @@ function Projects() {
       description: "Showing Weather information for Sydney by web scraping 3 sites",
       webLink: "https://secure-coast-19528.herokuapp.com/",
       githubLink: "https://github.com/AlsonZ/Weather-Bundle"
-    }
+    },
+    {
+      title: "Conway's Game of Life",
+      image: conwayImage,
+      description: "A cellular automaton devised by the British mathematician John Horton Conway in 1970 ",
+      webLink: "https://alsonz.github.io/game-of-life/",
+      githubLink: "https://github.com/AlsonZ/game-of-life"
+    },
   ]
 
   return (
