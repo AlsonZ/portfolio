@@ -19,7 +19,7 @@ function Projects() {
     {
       title: "Todo List",
       image: todolistImage,
-      description: "A Fullstack Todolist website with login REST, and CRUD operations",
+      description: "A Fullstack Todolist website with login, REST and CRUD operations",
       webLink: "https://quiet-fjord-80903.herokuapp.com/",
       githubLink: "https://github.com/AlsonZ/fullstack-todolist/"
     },
