@@ -5,6 +5,7 @@ import portfolioImage from '../imgs/project-images/portfolio-image.PNG';
 import todolistImage from '../imgs/project-images/todolist-image.PNG';
 import weatherBundleImage from '../imgs/project-images/weatherbundle-image.PNG';
 import conwayImage from '../imgs/project-images/conway-image.PNG';
+import exchangeRateImage from '../imgs/project-images/exchange-rate-image.PNG';
 
 function Projects() {
 
@@ -36,6 +37,13 @@ function Projects() {
       description: "A cellular automaton devised by the British mathematician John Horton Conway in 1970 ",
       webLink: "https://alsonz.github.io/game-of-life/",
       githubLink: "https://github.com/AlsonZ/game-of-life"
+    },
+    {
+      title: "Exchange Rate Calculator",
+      image: exchangeRateImage,
+      description: "Using the https://exchangeratesapi.io/ API to get the most recent exchange rates",
+      webLink: "https://alsonz.github.io/exchange-rate-calculator/",
+      githubLink: "https://github.com/AlsonZ/exchange-rate-calculator"
     },
   ]
 
