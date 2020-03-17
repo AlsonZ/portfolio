@@ -6,6 +6,7 @@ import todolistImage from '../imgs/project-images/todolist-image.PNG';
 import weatherBundleImage from '../imgs/project-images/weatherbundle-image.PNG';
 import conwayImage from '../imgs/project-images/conway-image.PNG';
 import exchangeRateImage from '../imgs/project-images/exchange-rate-image.PNG';
+import dragAndDropImage from '../imgs/project-images/drag-and-drop-image.PNG';
 
 function Projects() {
 
@@ -44,6 +45,13 @@ function Projects() {
       description: "Using the https://exchangeratesapi.io/ API to get the most recent exchange rates",
       webLink: "https://alsonz.github.io/exchange-rate-calculator/",
       githubLink: "https://github.com/AlsonZ/exchange-rate-calculator"
+    },
+    {
+      title: "Drag and Drop",
+      image: dragAndDropImage,
+      description: "Using React Beautiful dnd library to creat drag and drop columns and items.",
+      webLink: "https://alsonz.github.io/drag-and-drop/",
+      githubLink: "https://github.com/AlsonZ/drag-and-drop"
     },
   ]
 
