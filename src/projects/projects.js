@@ -7,10 +7,26 @@ import weatherBundleImage from '../imgs/project-images/weatherbundle-image.PNG';
 import conwayImage from '../imgs/project-images/conway-image.PNG';
 import exchangeRateImage from '../imgs/project-images/exchange-rate-image.PNG';
 import dragAndDropImage from '../imgs/project-images/drag-and-drop-image.PNG';
+import imagepalImage from '../imgs/project-images/imagepal.PNG';
+import upartsImage from '../imgs/project-images/uparts.PNG';
 
 function Projects() {
 
   const projects = [
+    {
+      title: "UParts",
+      image: upartsImage,
+      description: "A storefront webpage selling computer hardware",
+      webLink: "",
+      githubLink: "https://github.com/AlsonZ/ComputerPartsStore"
+    },
+    {
+      title: "Imagepal",
+      image: imagepalImage,
+      description: "Imagepal is a forum where people use images to communicate",
+      webLink: "https://imagepal.herokuapp.com/",
+      githubLink: "https://github.com/AlsonZ/ImagePal"
+    },
     {
       title: "Portfolio",
       image: portfolioImage,
