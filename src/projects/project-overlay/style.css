@@ -1,5 +1,4 @@
 .project-overlay {
-  
   position: fixed;
   top: 0;
   left: 0;
@@ -8,6 +7,11 @@
   padding-right: 15px;
   z-index: 1000;
   overflow-y: auto;
+  display: none;
+  --speed: 0.3s;
+}
+.overlay-active {
+  display: block;
 }
 
 .project-overlay .backdrop {
@@ -19,6 +23,19 @@
   min-height: 100%;
   /* height: 57em; */
   z-index: -1;
+  opacity: 0;
+  animation: fadeIn var(--speed) forwards;
+}
+@keyframes fadeIn {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
+}
+.project-overlay .backdrop-active {
+  animation: fadeOut var(--speed) forwards;
+}
+@keyframes fadeOut {
+  0% { opacity: 1 }
+  100% { opacity: 0 }
 }
 
 .project-overlay .content-box {
@@ -31,7 +48,21 @@
   margin-top: 5rem;
   z-index: 10;
   overflow-y: auto;
+  /* transition: transform 0.5s ease-in-out; */
+  animation: slideInFromTop var(--speed) forwards;
 }
+@keyframes slideInFromTop {
+  0% { transform: translateY(-100%) }
+  100% {transform: translateY(0%) }
+}
+.project-overlay .content-overlay-active {
+  animation: slideOutToTop var(--speed) forwards;
+}
+@keyframes slideOutToTop {
+  0% { transform: translateY(0%) }
+  100% {transform: translateY(-100%) }
+}
+
 
 @media only screen and (min-width: 700px) {
   .project-overlay .content-box {
@@ -41,3 +72,4 @@
     max-height: none;
   }
 }
+

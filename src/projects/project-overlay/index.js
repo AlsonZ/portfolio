@@ -11,6 +11,8 @@ const ProjectOverlay = () => {
   const projectToOverlay = {
     isActive: !projectContext.isActive,
     overlayClass: '',
+    contentOverlayClass: 'content-overlay-active',
+    backdropActiveClass: 'backdrop-active',
   }
 
   useEffect(() => {
@@ -19,10 +21,10 @@ const ProjectOverlay = () => {
 
   return (
     <>
-      {projectContext.isActive && <div className="project-overlay" >
-        <div className="backdrop" id="backdrop" ref={backdropRef} style={{height: 'auto'}} onClick={()=>{setProjectContext(projectToOverlay)}}>
+      {<div className={`project-overlay ${projectContext.overlayClass}`} >
+        <div className={`backdrop ${projectContext.backdropActiveClass}`} id="backdrop" ref={backdropRef} style={{height: 'auto'}} onClick={()=>{setProjectContext(projectToOverlay)}}>
         </div>
-        <div className="content-box" ref={contentRef}>
+        <div className={`content-box ${projectContext.contentOverlayClass}`} ref={contentRef}>
           box for content
         </div>
       </div>}

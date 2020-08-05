@@ -25,7 +25,8 @@ function App() {
   },[project])
 
   return (
-    <div className={`app-container ${project.overlayClass}`}>
+    // <div className={`app-container ${project.overlayClass}`}>
+    <div className={`app-container `}>
         <Nav/>
         <Home/>
         <Projects/>
@@ -33,7 +34,8 @@ function App() {
         <About/>
         <Contact/>
         <Footer/>
-        {project.isActive && <ProjectOverlay/>}
+        {/* {project.isActive && <ProjectOverlay/>} */}
+        {<ProjectOverlay/>}
     </div>
   );
 }

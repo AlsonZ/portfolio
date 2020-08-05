@@ -12,11 +12,14 @@ function ProjectCard({project}) {
     const projectToOverlay = {
       isActive: !projectContext.isActive,
       overlayClass: 'overlay-active',
+      contentOverlayClass: '',
+      backdropActiveClass: '',
     }
-    if(projectContext.overlayClass === 'overlay-active') {
+    if(projectContext.isActive) {
       projectToOverlay.overlayClass = '';
+      projectToOverlay.contentOverlayClass = 'content-overlay-active';
+      projectToOverlay.backdropActiveClass = 'backdrop-active';
     }
-
     setProjectContext(projectToOverlay);
   }
 
