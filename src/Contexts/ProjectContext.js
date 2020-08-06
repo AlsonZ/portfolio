@@ -8,15 +8,26 @@ export const ProjectProvider = (props) => {
     overlayClass: '',
     contentOverlayClass: '',
     backdropActiveClass: '',
+    image: '',
+    description: '',
+    title: '',
+    webLink: '',
+    githubLink: '',
   });
 
   const setProjectWithOverlayDelay = (stuff) => {
     if(project.isActive) {
+      console.log(stuff);
       setProject({
         isActive: true,
         overlayClass: 'overlay-active',
         contentOverlayClass: stuff.contentOverlayClass,
         backdropActiveClass: stuff.backdropActiveClass,
+        image: stuff.image,
+        description: stuff.description,
+        title: stuff.title,
+        webLink: stuff.webLink,
+        githubLink: stuff.githubLink,
       });
       setTimeout(() => {
         setProject({
@@ -24,6 +35,11 @@ export const ProjectProvider = (props) => {
           overlayClass: stuff.overlayClass,
           contentOverlayClass: '',
           backdropActiveClass: '',
+          image: '',
+          description: '',
+          title: '',
+          webLink: '',
+          githubLink: '',
         });
       },200)
     } else {

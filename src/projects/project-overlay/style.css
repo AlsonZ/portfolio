@@ -39,16 +39,15 @@
 }
 
 .project-overlay .content-box {
-  background-color: black;
-  color: white;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
   height: 90rem;
-  /* max-height: 30rem; */
   width: auto;
   margin: 10px;
   margin-top: 5rem;
   z-index: 10;
   overflow-y: auto;
-  /* transition: transform 0.5s ease-in-out; */
   animation: slideInFromTop var(--speed) forwards;
 }
 @keyframes slideInFromTop {
@@ -62,6 +61,24 @@
   0% { transform: translateY(0%) }
   100% {transform: translateY(-100%) }
 }
+
+.modal-header {
+  padding: 1rem;
+  display: flex;
+  background-color: #F0F0F0;
+}
+.modal-header .project-title {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+.modal-header .close-modal-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: grey;
+}
+
+
 
 
 @media only screen and (min-width: 700px) {

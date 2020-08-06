@@ -13,6 +13,11 @@ const ProjectOverlay = () => {
     overlayClass: '',
     contentOverlayClass: 'content-overlay-active',
     backdropActiveClass: 'backdrop-active',
+    image: projectContext.image,
+    description: projectContext.description,
+    title: projectContext.title,
+    webLink: projectContext.webLink,
+    githubLink: projectContext.githubLink,
   }
 
   useEffect(() => {
@@ -25,7 +30,22 @@ const ProjectOverlay = () => {
         <div className={`backdrop ${projectContext.backdropActiveClass}`} id="backdrop" ref={backdropRef} style={{height: 'auto'}} onClick={()=>{setProjectContext(projectToOverlay)}}>
         </div>
         <div className={`content-box ${projectContext.contentOverlayClass}`} ref={contentRef}>
-          box for content
+          <div className="modal-header">
+            <span className="project-title">
+              {projectContext.title}
+            </span>
+            <span className="close-modal-icon" onClick={()=>{setProjectContext(projectToOverlay)}}>
+              <i className="fas fa-times"></i>
+            </span>
+          </div>
+          <img src={projectContext.image}/>
+          <div>
+            {projectContext.description}
+          </div>
+          <div>
+            <a href={projectContext.webLink} className="">Website</a>
+            <a href={projectContext.githubLink} className="">Github</a>
+          </div>
         </div>
       </div>}
     </>
