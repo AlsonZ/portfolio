@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2790768331f7df127efffcea7f22ab4d",
+    "revision": "cb898ece110ae23aaeaee8252f5ba12a",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "b16faa5e838bf1c9811e",
-    "url": "/portfolio/static/css/main.f6d5365f.chunk.css"
+    "revision": "b8853fa69f58e6a346fc",
+    "url": "/portfolio/static/css/main.46205af9.chunk.css"
   },
   {
-    "revision": "132175668a89b9511beb",
-    "url": "/portfolio/static/js/2.d6dfff81.chunk.js"
+    "revision": "4a0fa2a5004aa2268d9f",
+    "url": "/portfolio/static/js/2.b4bb2878.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/portfolio/static/js/2.d6dfff81.chunk.js.LICENSE"
+    "url": "/portfolio/static/js/2.b4bb2878.chunk.js.LICENSE"
   },
   {
-    "revision": "b16faa5e838bf1c9811e",
-    "url": "/portfolio/static/js/main.4e738de0.chunk.js"
+    "revision": "b8853fa69f58e6a346fc",
+    "url": "/portfolio/static/js/main.f40e8c3d.chunk.js"
   },
   {
     "revision": "0d98471f6c3b69ca4251",
@@ -28,16 +28,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/conway-image.f7e3487f.PNG"
   },
   {
-    "revision": "6ae033b8382f559b720eece9eea6aa91",
-    "url": "/portfolio/static/media/drag-and-drop-image.6ae033b8.PNG"
-  },
-  {
     "revision": "71b2e1a347bfb80daed47f22e27ae649",
     "url": "/portfolio/static/media/exchange-rate-image.71b2e1a3.PNG"
   },
   {
     "revision": "dd44cb1ef3d779b6d24fa80455ffa54f",
     "url": "/portfolio/static/media/icons.dd44cb1e.svg"
+  },
+  {
+    "revision": "4e16748af78972b3454ca6dd71742558",
+    "url": "/portfolio/static/media/imagepal.4e16748a.PNG"
   },
   {
     "revision": "df3723e671a7ac888321d7b69e9c7193",
@@ -53,15 +53,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "0a02aafcf895627bf85f460464e16b5b",
-    "url": "/portfolio/static/media/portfolio-image.0a02aafc.PNG"
+    "url": "/portfolio/static/media/portfolio.0a02aafc.png"
   },
   {
     "revision": "952da5c6786d48ccccff34727f1d2833",
     "url": "/portfolio/static/media/programming-graphic.952da5c6.svg"
   },
   {
-    "revision": "5365370f65dd3c297d4b6f5b7d947419",
-    "url": "/portfolio/static/media/todolist-image.5365370f.PNG"
+    "revision": "51ccb20ddb2fb44fc63154c56c26e483",
+    "url": "/portfolio/static/media/todolist.51ccb20d.png"
+  },
+  {
+    "revision": "26c2b1baf6ffc8f7ab20e22a50056719",
+    "url": "/portfolio/static/media/uparts.26c2b1ba.png"
   },
   {
     "revision": "df0fc30d6ad69c560af382484e5c5c42",
