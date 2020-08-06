@@ -83,8 +83,10 @@
   width: 100%;
 }
 .modal-description {
-  margin: 1rem;
+  margin: 2rem 10%;
   text-align: center;
+  white-space: pre-wrap;
+  line-height: 1.4rem;
 }
 .modal-link-container {
   margin: 1rem 20%;
