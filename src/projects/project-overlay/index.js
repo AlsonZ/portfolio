@@ -22,7 +22,7 @@ const ProjectOverlay = () => {
 
   useEffect(() => {
    backdropRef.current.style.height = `${contentRef.current.clientHeight+100}px`;
-  },[])
+  },[projectContext, window.orientation])
 
   return (
     <>
@@ -38,13 +38,15 @@ const ProjectOverlay = () => {
               <i className="fas fa-times"></i>
             </span>
           </div>
-          <img src={projectContext.image}/>
-          <div>
+          <div className="modal-image-container">
+            <img className="modal-image" src={projectContext.image}/>
+          </div>
+          <div className="modal-description">
             {projectContext.description}
           </div>
-          <div>
-            <a href={projectContext.webLink} className="">Website</a>
-            <a href={projectContext.githubLink} className="">Github</a>
+          <div className="modal-link-container">
+            <a href={projectContext.webLink} target="_blank" className="modal-link">Website</a>
+            <a href={projectContext.githubLink} target="_blank" className="modal-link">Github</a>
           </div>
         </div>
       </div>}

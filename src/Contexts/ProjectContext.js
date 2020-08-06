@@ -15,24 +15,23 @@ export const ProjectProvider = (props) => {
     githubLink: '',
   });
 
-  const setProjectWithOverlayDelay = (stuff) => {
+  const setProjectWithOverlayDelay = (projectDetails) => {
     if(project.isActive) {
-      console.log(stuff);
       setProject({
         isActive: true,
         overlayClass: 'overlay-active',
-        contentOverlayClass: stuff.contentOverlayClass,
-        backdropActiveClass: stuff.backdropActiveClass,
-        image: stuff.image,
-        description: stuff.description,
-        title: stuff.title,
-        webLink: stuff.webLink,
-        githubLink: stuff.githubLink,
+        contentOverlayClass: projectDetails.contentOverlayClass,
+        backdropActiveClass: projectDetails.backdropActiveClass,
+        image: projectDetails.image,
+        description: projectDetails.description,
+        title: projectDetails.title,
+        webLink: projectDetails.webLink,
+        githubLink: projectDetails.githubLink,
       });
       setTimeout(() => {
         setProject({
-          isActive: stuff.isActive,
-          overlayClass: stuff.overlayClass,
+          isActive: projectDetails.isActive,
+          overlayClass: projectDetails.overlayClass,
           contentOverlayClass: '',
           backdropActiveClass: '',
           image: '',
@@ -43,7 +42,7 @@ export const ProjectProvider = (props) => {
         });
       },200)
     } else {
-      setProject(stuff);
+      setProject(projectDetails);
     }
   }
 
