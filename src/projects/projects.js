@@ -17,7 +17,7 @@ function Projects() {
       title: "UParts",
       image: upartsImage,
       description: "Using HTML, CSS and Javascript to create a online store selling computer hardware.",
-      webLink: "",
+      webLink: "https://alsonz.github.io/ComputerPartsStore/",
       githubLink: "https://github.com/AlsonZ/ComputerPartsStore"
     },
     {
@@ -32,7 +32,7 @@ function Projects() {
     {
       title: "Portfolio",
       image: portfolioImage,
-      description: "My portfolio to display what I have learnt and the projects i have created.",
+      description: "My portfolio to display what I have learnt and the projects I have created.",
       webLink: "https://alsonz.github.io/portfolio/",
       githubLink: "https://github.com/AlsonZ/portfolio"
     },
