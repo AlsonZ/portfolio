@@ -9,7 +9,7 @@ import exchangeRateImage from '../imgs/project-images/exchange-rate-image.PNG';
 import dragAndDropImage from '../imgs/project-images/draganddrop.png';
 import imagepalImage from '../imgs/project-images/imagepal.PNG';
 import upartsImage from '../imgs/project-images/uparts.png';
-import snowytripsImage from '../imgs/project-images/snowytrips.png';
+import snowytripsImage from '../imgs/project-images/snowytrips.PNG';
 
 function Projects() {
 
