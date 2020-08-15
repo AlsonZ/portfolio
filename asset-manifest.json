@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.46205af9.chunk.css",
-    "main.js": "/portfolio/static/js/main.9f7cc2f8.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9f7cc2f8.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.6a9332a6.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.6a9332a6.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.44087e9b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.44087e9b.js.map",
-    "static/js/2.b4bb2878.chunk.js": "/portfolio/static/js/2.b4bb2878.chunk.js",
-    "static/js/2.b4bb2878.chunk.js.map": "/portfolio/static/js/2.b4bb2878.chunk.js.map",
+    "static/js/2.bb7ab8e8.chunk.js": "/portfolio/static/js/2.bb7ab8e8.chunk.js",
+    "static/js/2.bb7ab8e8.chunk.js.map": "/portfolio/static/js/2.bb7ab8e8.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.dbd0a8ef3c32be0f78b19814a62b862b.js": "/portfolio/precache-manifest.dbd0a8ef3c32be0f78b19814a62b862b.js",
+    "precache-manifest.fa13d751ee30997aca9b7e776532fc2b.js": "/portfolio/precache-manifest.fa13d751ee30997aca9b7e776532fc2b.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.46205af9.chunk.css.map": "/portfolio/static/css/main.46205af9.chunk.css.map",
-    "static/js/2.b4bb2878.chunk.js.LICENSE": "/portfolio/static/js/2.b4bb2878.chunk.js.LICENSE",
+    "static/js/2.bb7ab8e8.chunk.js.LICENSE": "/portfolio/static/js/2.bb7ab8e8.chunk.js.LICENSE",
     "static/media/conway-image.PNG": "/portfolio/static/media/conway-image.f7e3487f.PNG",
     "static/media/exchange-rate-image.PNG": "/portfolio/static/media/exchange-rate-image.71b2e1a3.PNG",
     "static/media/icons.svg": "/portfolio/static/media/icons.dd44cb1e.svg",
@@ -19,14 +19,15 @@
     "static/media/home.css": "/portfolio/static/media/mountain-top-720.b0acd5bf.jpg",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.0a02aafc.png",
     "static/media/programming-graphic.svg": "/portfolio/static/media/programming-graphic.952da5c6.svg",
+    "static/media/snowytrips.PNG": "/portfolio/static/media/snowytrips.8ffc4415.PNG",
     "static/media/todolist.png": "/portfolio/static/media/todolist.51ccb20d.png",
     "static/media/uparts.png": "/portfolio/static/media/uparts.26c2b1ba.png",
     "static/media/weatherbundle-image.PNG": "/portfolio/static/media/weatherbundle-image.df0fc30d.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.44087e9b.js",
-    "static/js/2.b4bb2878.chunk.js",
+    "static/js/2.bb7ab8e8.chunk.js",
     "static/css/main.46205af9.chunk.css",
-    "static/js/main.9f7cc2f8.chunk.js"
+    "static/js/main.6a9332a6.chunk.js"
   ]
 }
