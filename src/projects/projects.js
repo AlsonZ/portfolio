@@ -9,6 +9,7 @@ import exchangeRateImage from '../imgs/project-images/exchange-rate-image.PNG';
 import dragAndDropImage from '../imgs/project-images/draganddrop.png';
 import imagepalImage from '../imgs/project-images/imagepal.PNG';
 import upartsImage from '../imgs/project-images/uparts.png';
+import snowytripsImage from '../imgs/project-images/snowytrips.png';
 
 function Projects() {
 
@@ -28,6 +29,13 @@ function Projects() {
       "\n I redesigned and redeveloped the entire project using the MERN stack. It uses node.js, express in the backend with MongoDB as the database and React in the frontend.",
       webLink: "https://imagepal.herokuapp.com/",
       githubLink: "https://github.com/AlsonZ/ImagePal"
+    },
+    {
+      title: "Snowy Trips",
+      image: snowytripsImage,
+      description: "Travel site using HTML, CSS and javascript",
+      webLink: "https://alsonz.github.io/Snowy-Trips/",
+      githubLink: "https://github.com/AlsonZ/Snowy-Trips"
     },
     {
       title: "Portfolio",
