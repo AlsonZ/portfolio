@@ -10,6 +10,7 @@ import dragAndDropImage from '../imgs/project-images/draganddrop.png';
 import imagepalImage from '../imgs/project-images/imagepal.PNG';
 import upartsImage from '../imgs/project-images/uparts.png';
 import snowytripsImage from '../imgs/project-images/snowytrips.PNG';
+import chatroomImage from '../imgs/project-images/chatroom.PNG';
 
 function Projects() {
 
@@ -50,6 +51,13 @@ function Projects() {
       description: "A Fullstack Todolist website with login, REST and CRUD operations.",
       webLink: "https://quiet-fjord-80903.herokuapp.com/",
       githubLink: "https://github.com/AlsonZ/fullstack-todolist/"
+    },
+    {
+      title: "Chatroom",
+      image: chatroomImage,
+      description: "A chatroom created with socket.io along with a room joining link similar to discord.",
+      webLink: "https://websocketschatroom.herokuapp.com/room",
+      githubLink: "https://github.com/AlsonZ/socket.io-chatroom"
     },
     {
       title: "Weather Bundle",
