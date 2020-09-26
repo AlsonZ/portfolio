@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb4ad89481599c171dc5f63975c63564",
+    "revision": "0e981a0367521f6ccb2a0787f862ef16",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "4088864c7a97cb22f7ce",
-    "url": "/portfolio/static/css/main.46205af9.chunk.css"
+    "revision": "719a9394b3e0bfa94835",
+    "url": "/portfolio/static/css/main.825f4bbb.chunk.css"
   },
   {
-    "revision": "727ac789266016c222e9",
-    "url": "/portfolio/static/js/2.bb7ab8e8.chunk.js"
+    "revision": "8354cd32675275fb4e7a",
+    "url": "/portfolio/static/js/2.625ee173.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/portfolio/static/js/2.bb7ab8e8.chunk.js.LICENSE"
+    "url": "/portfolio/static/js/2.625ee173.chunk.js.LICENSE"
   },
   {
-    "revision": "4088864c7a97cb22f7ce",
-    "url": "/portfolio/static/js/main.6a9332a6.chunk.js"
+    "revision": "719a9394b3e0bfa94835",
+    "url": "/portfolio/static/js/main.5d5084e8.chunk.js"
   },
   {
     "revision": "0d98471f6c3b69ca4251",
     "url": "/portfolio/static/js/runtime-main.44087e9b.js"
+  },
+  {
+    "revision": "c19a5217e0b8307518f6509cf1e8a447",
+    "url": "/portfolio/static/media/chatroom.c19a5217.PNG"
   },
   {
     "revision": "f7e3487fa7bb859d8df181052c924dae",
