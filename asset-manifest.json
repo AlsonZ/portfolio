@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.825f4bbb.chunk.css",
-    "main.js": "/portfolio/static/js/main.5d5084e8.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.5d5084e8.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.cc43b3be.chunk.css",
+    "main.js": "/portfolio/static/js/main.0e1db45a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.0e1db45a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.44087e9b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.44087e9b.js.map",
-    "static/js/2.625ee173.chunk.js": "/portfolio/static/js/2.625ee173.chunk.js",
-    "static/js/2.625ee173.chunk.js.map": "/portfolio/static/js/2.625ee173.chunk.js.map",
+    "static/js/2.b10cb463.chunk.js": "/portfolio/static/js/2.b10cb463.chunk.js",
+    "static/js/2.b10cb463.chunk.js.map": "/portfolio/static/js/2.b10cb463.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.1e8a59e140197ce87899932591044564.js": "/portfolio/precache-manifest.1e8a59e140197ce87899932591044564.js",
+    "precache-manifest.fb2f7c54be71da29ed1352a93e4ce157.js": "/portfolio/precache-manifest.fb2f7c54be71da29ed1352a93e4ce157.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.825f4bbb.chunk.css.map": "/portfolio/static/css/main.825f4bbb.chunk.css.map",
-    "static/js/2.625ee173.chunk.js.LICENSE": "/portfolio/static/js/2.625ee173.chunk.js.LICENSE",
+    "static/css/main.cc43b3be.chunk.css.map": "/portfolio/static/css/main.cc43b3be.chunk.css.map",
+    "static/js/2.b10cb463.chunk.js.LICENSE": "/portfolio/static/js/2.b10cb463.chunk.js.LICENSE",
     "static/media/chatroom.PNG": "/portfolio/static/media/chatroom.c19a5217.PNG",
     "static/media/conway-image.PNG": "/portfolio/static/media/conway-image.f7e3487f.PNG",
     "static/media/exchange-rate-image.PNG": "/portfolio/static/media/exchange-rate-image.71b2e1a3.PNG",
     "static/media/icons.svg": "/portfolio/static/media/icons.dd44cb1e.svg",
     "static/media/imagepal.PNG": "/portfolio/static/media/imagepal.4e16748a.PNG",
     "static/media/home.css": "/portfolio/static/media/mountain-top-720.b0acd5bf.jpg",
+    "static/media/movie-app.PNG": "/portfolio/static/media/movie-app.9305b0da.PNG",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.0a02aafc.png",
     "static/media/programming-graphic.svg": "/portfolio/static/media/programming-graphic.952da5c6.svg",
     "static/media/snowytrips.PNG": "/portfolio/static/media/snowytrips.8ffc4415.PNG",
@@ -27,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.44087e9b.js",
-    "static/js/2.625ee173.chunk.js",
-    "static/css/main.825f4bbb.chunk.css",
-    "static/js/main.5d5084e8.chunk.js"
+    "static/js/2.b10cb463.chunk.js",
+    "static/css/main.cc43b3be.chunk.css",
+    "static/js/main.0e1db45a.chunk.js"
   ]
 }
